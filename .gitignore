@@ -2,6 +2,5 @@ server/.env
 client/.env
 client/node_modules
 server/node_modules
-server/webfiles
 server/.gitignore
 client/.gitignore
