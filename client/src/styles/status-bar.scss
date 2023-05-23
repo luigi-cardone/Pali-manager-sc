@@ -1,0 +1,41 @@
+@import '../settings';
+
+.status-bar{
+    border-left: solid 6px $primary;
+    min-width: 160px;
+    max-width: 285px;
+    width: 100%;
+    height: 72px;
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h6{
+    margin: 0px;
+    font-size: $font-size-contetHeader;
+    font-weight: 400;
+    color: rgba(44, 56, 74, 0.7);
+}
+
+h3{
+    font-size: 1.4vw;
+    color: #000000;
+}
+
+.one{
+    border-color: #1D9BF0;
+}
+.two{
+    border-color: #E45353;
+}
+.three{
+    border-color: #F8B114;
+}
+.four{
+    border-color: #505D73;
+}
+.five{
+    border-color: #2EB85C;
+}

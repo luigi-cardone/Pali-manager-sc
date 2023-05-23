@@ -1,0 +1,174 @@
+
+$primary: #FE6060;
+//GlobalCorp: #FE6060
+//Palimanger: #1d9bef
+$background: #eff3f6;
+$contrast: #ffffff;
+$grey-1: #7e8590;
+$grey-2: #6b7480;
+$primary-light: rgba(29, 155, 239, 0.19);
+$background-light: rgba(208, 228, 241, 0.19);
+
+$font-size-header: 20px;
+$font-size-subHeader: 16px;
+$font-size-text: 15px;
+$font-size-contetHeader: 12px;
+
+*{
+    --cui-gutter-x: 0 !important;
+}
+
+body{
+    background-color: $background;
+}
+
+.primary{
+    background-color: $primary !important;
+}
+
+.primary-light{
+    background-color: $primary-light !important;
+}
+
+.background{
+    background-color: $background !important;
+}
+
+.background-light{
+    background-color: $background-light !important;
+}
+
+.contrast{
+    background-color: $contrast !important;
+}
+.grey-1{
+    background-color: $grey-1 !important;
+}
+.grey-2{
+    background-color: $grey-2 !important;
+}
+
+.size-header{
+    font-size: $font-size-header !important;
+}
+.size-subHeader{
+    font-size: $font-size-subHeader !important;
+}
+.size-text{
+    font-size: $font-size-text !important;
+}
+.size-contentHeader{
+    font-size: $font-size-contetHeader !important;
+}
+
+.color-contrast{
+    color: $contrast !important
+}
+
+.color-base{
+    color: $grey-2 !important
+}
+
+.color-black{
+    color: black !important
+}
+
+.color-highlight{
+    color: $primary !important
+}
+
+.color-success{
+    color: #2EB85C !important
+}
+
+.weight-200{
+    font-weight: 200 !important;
+}
+.weight-400{
+    font-weight: 400 !important;
+}
+.weight-600{
+    font-weight: 600 !important;
+}
+.weight-700{
+    font-weight: 700 !important;
+}
+.weight-900{
+    font-weight: 900 !important;
+}
+
+.form-check-input:checked{
+    background-color: $primary;
+    border-color: $primary;
+}
+
+.form-check-input[type=checkbox] {
+    border-radius: 0.15em;
+    border-color: #D1CFD7
+}
+option{
+    padding: 50px 20px;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 16px;
+}
+  
+  /* Track */
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    margin: 10px
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #D9D9D9;
+    border: 3px solid #f1f1f1;
+}
+
+.picker-footer > button.btn-primary{
+    background-color: $primary;
+}
+
+.picker-footer > button.btn-primary{
+    background-color: $primary;
+}
+
+.picker-footer > .btn-ghost-primary {
+    --cui-btn-color: $primary;
+    --cui-btn-hover-bg: white;
+    --cui-btn-hover-border-color: white;
+    --cui-btn-hover-color: $primary;
+    --cui-btn-active-bg: white;
+    --cui-btn-active-border-color: white;
+    --cui-btn-active-color: $contrast;
+}
+
+.calendar {
+    --cui-calendar-table-margin: 0.5rem;
+    --cui-calendar-table-cell-size: 2.75rem;
+    --cui-calendar-nav-padding: 0.5rem;
+    --cui-calendar-nav-border: 1px solid #d8dbe0;
+    --cui-calendar-nav-date-color: rgba(44, 56, 74, 0.95);
+    // --cui-calendar-nav-date-hover-color: #1d9bef;
+    --cui-calendar-nav-date-hover-color: #FE6060;
+    --cui-calendar-nav-icon-width: 1rem;
+    --cui-calendar-nav-icon-height: 1rem;
+    --cui-calendar-cell-header-inner-color: rgba(44, 56, 74, 0.681);
+    --cui-calendar-cell-hover-bg: #d8dbe0;
+    --cui-calendar-cell-disabled-color: rgba(44, 56, 74, 0.38);
+    --cui-calendar-cell-selected-color: #fff;
+    // --cui-calendar-cell-selected-bg: #1d9bef;
+    --cui-calendar-cell-selected-bg: #FE6060;
+    --cui-calendar-cell-range-bg: rgba(50, 31, 219, 0.125);
+    --cui-calendar-cell-range-hover-bg: rgba(50, 31, 219, 0.25);
+    // --cui-calendar-cell-range-hover-border-color: #1d9bef;
+    --cui-calendar-cell-range-hover-border-color: #FE6060;
+    --cui-calendar-cell-today-color: #e55353;
+    font-weight: initial;
+} 
+
+.cursor-pointer{
+    cursor: pointer;
+}

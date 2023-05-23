@@ -1,0 +1,28 @@
+@import '../settings.scss';
+
+.sidebar-brand{
+  --cui-sidebar-brand-height: 3.5rem;
+}
+.sidebar-nav .nav-link{
+  //--cui-sidebar-nav-link-hover-bg: rgba(29, 155, 240, 0.25);
+  --cui-sidebar-nav-link-hover-bg: rgba(240, 29, 29, 0.25);
+}
+
+.sidebar-narrow .nav-link{
+  padding: 0px;
+  justify-content: center;
+}
+
+.sidebar-toggler{
+  --cui-sidebar-toggler-bg: rgba(0, 0, 21, 0.2);
+  --cui-sidebar-toggler-height: 3rem;
+  --cui-sidebar-toggler-indicator-width: 1.5rem;
+  --cui-sidebar-toggler-indicator-height: 2.5rem;
+  --cui-sidebar-toggler-bg: rgba(255,255,255,0);
+  --cui-sidebar-toggler-hover-bg: rgba(0, 0, 0, 0);
+  --cui-sidebar-toggler-indicator: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 11 14%27%3E%3Cpath fill=%27rgba%28255, 255, 255, 0.87%29%27 d=%27M9.148 2.352l-4.148 4.148 4.148 4.148q0.148 0.148 0.148 0.352t-0.148 0.352l-1.297 1.297q-0.148 0.148-0.352 0.148t-0.352-0.148l-5.797-5.797q-0.148-0.148-0.148-0.352t0.148-0.352l5.797-5.797q0.148-0.148 0.352-0.148t0.352 0.148l1.297 1.297q0.148 0.148 0.148 0.352t-0.148 0.352z%27/%3E%3C/svg%3E");
+}
+.sidebar-narrow .sidebar-toggler{
+  --cui-sidebar-toggler-indicator: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 11 14%27%3E%3Cpath fill=%27rgba%2829, 155, 240, 0.87%29%27 d=%27M9.148 2.352l-4.148 4.148 4.148 4.148q0.148 0.148 0.148 0.352t-0.148 0.352l-1.297 1.297q-0.148 0.148-0.352 0.148t-0.352-0.148l-5.797-5.797q-0.148-0.148-0.148-0.352t0.148-0.352l5.797-5.797q0.148-0.148 0.352-0.148t0.352 0.148l1.297 1.297q0.148 0.148 0.148 0.352t-0.148 0.352z%27/%3E%3C/svg%3E");
+  --cui-sidebar-toggler-indicator-hover: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 11 14%27%3E%3Cpath fill=%27rgba%2829, 155, 240, 0.87%29%27 d=%27M9.148 2.352l-4.148 4.148 4.148 4.148q0.148 0.148 0.148 0.352t-0.148 0.352l-1.297 1.297q-0.148 0.148-0.352 0.148t-0.352-0.148l-5.797-5.797q-0.148-0.148-0.148-0.352t0.148-0.352l5.797-5.797q0.148-0.148 0.352-0.148t0.352 0.148l1.297 1.297q0.148 0.148 0.148 0.352t-0.148 0.352z%27/%3E%3C/svg%3E");
+}
