@@ -39,6 +39,13 @@ app.use(credentials)
 app.use(cors(corsOptions))
 app.use(cookieParser())
 app.use(express.static(path.join(__dirname + "/public")))
+app.get('/*', function(req, res) {
+    res.sendFile(path.join(__dirname, '/public/index.html'), function(err) {
+      if (err) {
+        res.status(500).send(err)
+      }
+    })
+  })
 app.use('/register', register)
 app.use('/login', login)
 app.use('/refresh', refresh)
@@ -60,13 +67,6 @@ app.use('/pl', pl)
 app.use('/pls', pls)
 app.use('/fornitori', fornitori)
 app.use('/fornitore', fornitore)
-app.get('/*', function(req, res) {
-    res.sendFile(path.join(__dirname, '/public/index.html'), function(err) {
-      if (err) {
-        res.status(500).send(err)
-      }
-    })
-  })
 
 app.listen(process.env.PORT || 8000, ()=>{
     console.log("Backend started")
