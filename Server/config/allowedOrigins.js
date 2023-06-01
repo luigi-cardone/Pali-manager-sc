@@ -1,4 +1,4 @@
-const allowedOrigins = [
+const allowedOrigins = ['*']/*[
     'http://127.0.0.1:3000',
     'http://palimanager-clo1.it',
     'https://palimanager-clo1.it',
@@ -8,6 +8,6 @@ const allowedOrigins = [
     'http://localhost:8000',
     '172.31.144.1',
     '79.60.236.58'
-]
+]*/
 
 export default allowedOrigins
