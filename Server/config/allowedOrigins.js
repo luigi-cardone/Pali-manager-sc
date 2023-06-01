@@ -7,6 +7,7 @@ const allowedOrigins = [
     'http://localhost:3000',
     'http://localhost:8000',
     '172.31.144.1',
+    '79.60.236.58'
 ]
 
 export default allowedOrigins
