@@ -7,7 +7,7 @@ const getUserBioData = (req, res) =>{
     const q = "SELECT * FROM users INNER JOIN users_data ON users_data.user_id = users.user_id"
     db.query(q, [user_id], (err, data)=>{
         if(err) return res.json(err)
-        return res.json(data)
+        return res.json("data")
     })
 }
 
