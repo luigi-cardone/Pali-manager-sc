@@ -7,7 +7,7 @@ const corsOptions = {
             callback(new Error('Not allowed by CORS'));
         }
     },
-    credentials: true, // This MUST be "true" if your endpoint is
+    //credentials: true, // This MUST be "true" if your endpoint is
                        // authenticated via either a session cookie
                        // or Authorization header. Otherwise the
                        // browser will block the response.
