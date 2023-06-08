@@ -16,7 +16,7 @@ const getUserBioDataSingle = (req, res) =>{
     const q = "SELECT * FROM users INNER JOIN users_data ON users_data.user_id = users.user_id where users_data.nome = ?"
     db.query(q, [user_name], (err, data)=>{
         if(err) return res.json(err)
-        return res.json(data)
+        return res.json("data")
     })
 }
 
