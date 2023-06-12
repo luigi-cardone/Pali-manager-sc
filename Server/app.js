@@ -79,13 +79,13 @@ app.use('/pl', pl)
 app.use('/pls', pls)
 app.use('/fornitori', fornitori)
 app.use('/fornitore', fornitore)
-app.get('/*', function(req, res) {
+/*app.get('/*', function(req, res) {
     res.sendFile(path.join(__dirname, '/public/index.html'), function(err) {
       if (err) {
         res.status(500).send(err)
       }
     })
-  })
+  })*/
 
 app.listen(process.env.PORT || 8000, ()=>{
   console.log("Backend started")
