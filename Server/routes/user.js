@@ -1,10 +1,8 @@
 import express from "express";
-import {getUserBioData, updateUserBioData, deleteUser, createUser, getUserBioDataSingle} from '../controllers/userContoller.js'
+import {getUserBioData, updateUserBioData, deleteUser, createUser} from '../controllers/userContoller.js'
 const router = express.Router({mergeParams: true})
 
 router.get("/user/:user_id", getUserBioData)
-
-router.get("/user/:user_id/:user_name", getUserBioDataSingle)
 
 router.post("/updateUser", updateUserBioData)
 
