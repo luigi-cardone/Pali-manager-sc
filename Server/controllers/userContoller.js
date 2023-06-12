@@ -63,4 +63,4 @@ const deleteUser = (req, res) =>{
         return res.json({'error' : false, 'message' : 'Utente eliminato con successo'})
     })
 }
-export {getUserBioData, updateUserBioData, deleteUser, createUser}
+export {getUserBioData, updateUserBioData, deleteUser, createUser, getUserBioDataSingle}
