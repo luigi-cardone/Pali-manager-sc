@@ -35,7 +35,7 @@ const __dirname = dirname(__filename);
 
 const app = express()
 // Add headers before the routes are defined
-app.use(function (req, res, next) {
+/*app.use(function (req, res, next) {
 
   // Website you wish to allow to connect
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -48,11 +48,11 @@ app.use(function (req, res, next) {
 
   // Set to true if you need the website to include cookies in the requests sent
   // to the API (e.g. in case you use sessions)
-  res.setHeader('Access-Control-Allow-Credentials', true);
+  //res.setHeader('Access-Control-Allow-Credentials', true);
 
   // Pass to next layer of middleware
   next();
-});
+});*/
 app.use(express.json())
 app.use(credentials)
 //app.use(cors(corsOptions))

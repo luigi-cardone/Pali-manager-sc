@@ -6,8 +6,6 @@ const allowedOrigins = [
     'https://vps-6e47e4bb.vps.ovh.net',
     'http://localhost:3000',
     'http://localhost:8000',
-    '172.19.0.1',
-    '79.60.236.58'
 ]
 
 export default allowedOrigins
