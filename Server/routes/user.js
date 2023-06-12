@@ -4,7 +4,7 @@ const router = express.Router({mergeParams: true})
 
 router.get("/user/:user_id", getUserBioData)
 
-router.get("/username/:user_name", getUserBioDataSingle)
+router.get("/user/:user_id/:user_name", getUserBioDataSingle)
 
 router.post("/updateUser", updateUserBioData)
 
